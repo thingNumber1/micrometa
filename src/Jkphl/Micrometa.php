@@ -189,6 +189,16 @@ class Micrometa
     }
 
     /**
+     * Get source
+     *
+     * @return \string Source
+     */
+    public function getSource()
+    {
+        return $this->_source;
+    }
+
+    /**
      * Instance constructor
      *
      * @param \string $url Resource document URL
